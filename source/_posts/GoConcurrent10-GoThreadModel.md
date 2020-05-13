@@ -1,5 +1,4 @@
 ---
-layout: drafts
 title: Go并发编程（十）Go并发编程模型
 tags:
   - Go

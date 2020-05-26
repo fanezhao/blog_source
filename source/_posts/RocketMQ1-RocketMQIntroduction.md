@@ -11,7 +11,7 @@ tags:
 
 ## RocketMQ是什么？
 
-{% qnimg mq.png %}
+{% qnimg 消息队列是什么.png %}
 
 上图是一个典型的消息中间件收发消息的模型，RocketMQ也是这样的设计，简单说来，RocketMQ具有以下特点：
 
@@ -28,7 +28,7 @@ tags:
 
 ### RocketMQ实现架构
 
-{% qnimg rmq-basic.png %}
+{% qnimg rmq架构图.png %}
 
 Rocket的架构由四个部分组成：`NameServer`，`Broker`，`Producer`和`Consumer`。它们中的每一个都可以水平扩展，而没有单个故障点。
 
@@ -44,7 +44,7 @@ Rocket的架构由四个部分组成：`NameServer`，`Broker`，`Producer`和`C
 
 ### RocketMQ 物理部署结构
 
-{% qnimg rocketmq物理部署.png %}
+{% qnimg rmq物理部署图.png %}
 
 如上图所示， RocketMQ的部署结构有以下特点：
 

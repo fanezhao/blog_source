@@ -11,7 +11,7 @@ tags:
 
 一条消息从生产到被消费，将会经历三个阶段：
 
-{% qnimg rmq-dontlostmsg.jpg %}
+{% qnimg rmq消息三阶段.jpg %}
 
 - 生产阶段，Producer 新建消息，然后通过网络将消息投递给 MQ Broker
 - 存储阶段，消息将会存储在 Broker 端磁盘中
@@ -56,7 +56,7 @@ send 方法是一个同步操作，只要这个方法不抛出任何异常，就
 
 引用官方状态说明：
 
-{% qnimg rmq-status.jpeg %}
+{% qnimg rmq消息发送结果官方解释.jpeg %}
 
 另外 RocketMQ 还提供异步的发送的方式，适合于链路耗时较长，对响应时间较为敏感的业务场景。
 

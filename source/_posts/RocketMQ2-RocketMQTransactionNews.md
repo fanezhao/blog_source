@@ -43,7 +43,7 @@ tags:
 
 理解这张阿里官方的图，就能理解RocketMQ分布式事务的原理了。
 
-{% qnimg rmq-transaction.jpg %}
+{% qnimg rmq分布式事务原理.jpg %}
 
 流程如下：
 

@@ -104,8 +104,8 @@ theme: vexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: zmoyi@122.112.182.69:/home/zmoyi/blog.git
-  # repo: https://github.com/fanezhao/fanezhao.github.io.git
+  # repo: zmoyi@122.112.182.69:/home/zmoyi/blog.git
+  repo: https://github.com/fanezhao/fanezhao.github.io.git
   branch: master
   message: 
 

@@ -1,18 +1,15 @@
 ---
-title: 为什么重写equals()方法的时候一定要重写hashCode()方法？
+title: 重写equals()方法的时候一定要重写hashCode()方法吗？
 date: 2020-05-29 20:20:24
 tags:
   - Java
 ---
 
-# 为什么重写equals()方法的时候一定要重写hashCode()方法？
-
-当我们用 HashMap 存入自定义的类时，如果不重写这个自定义类的 equals 和 hashCode 方法，得到的结果会和我们预期的不一样。
+我们知道，当我们用`HashMap`存入自定义的类时，如果不重写这个自定义类的`equals`和`hashCode`方法，得到的结果会和我们预期的不一样。
 
 下面以一个Person类为基础，观察其在：
 
 - 不重写`equals`和`hashCode`方法
-
 - 重写`equals`但不重写`hashCode`方法
 - 重写`equals`和`hashCode`方法
 
